@@ -2,7 +2,7 @@ import DatePicker from 'react-datepicker';
 import React, { useState } from "react";
 import 'react-datepicker/dist/react-datepicker.css';
 import Swal from 'sweetalert2';
-import icon from './icon.facebook.png'
+
 function Contact() {
     const [date, setDate] = useState(new Date());
     const handAlert = () => {

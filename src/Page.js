@@ -4,7 +4,7 @@ function Page({restaurant}) {
     return (
       <div className="products">
      {restaurant.map((element => {
-        const {id, name, searchTerm, price, image} = element;
+        const {id, name, price, image} = element;
         return(
             <div className="product-card" key={id}>
                 <img src={image} width="300px" height="300px" alt="food"/>
